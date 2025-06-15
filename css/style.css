@@ -45,4 +45,13 @@ padding: 200px 0;
     font-size: 28px;
     font-weight: 700;
     color: white;
+    margin-bottom: 25px;
+}
+.homeOneError{
+    padding: 10px  15px ;
+    background: red;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: none;
 }
