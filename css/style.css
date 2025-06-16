@@ -36,6 +36,14 @@ padding: 200px 0;
      text-align: center;
      display: none;
 }
+.playerScreen{
+    padding: 250px 285px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+     text-align: center;
+     display: none;
+}
 .gameContent h1{
    font-weight: 700;
     font-size: 48px;
@@ -47,6 +55,11 @@ padding: 200px 0;
     padding-bottom: 20px;
 }
 .playerTwoScreen h1{
+   font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.playerScreen h1{
    font-weight: 700;
     font-size: 48px;
     padding-bottom: 20px;

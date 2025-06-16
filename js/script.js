@@ -4,6 +4,7 @@ let homeOneError = document.querySelector(".homeOneError");
 let gameScreen = document.querySelector(".gameScreen");
 let playerOneScreen = document.querySelector(".playerOneScreen");
 let playerTwoScreen = document.querySelector(".playerTwoScreen");
+let playerScreen = document.querySelector(".playerScreen");
 let textOne = document.querySelector(".textOne");
 let textTwo = document.querySelector(".textTwo");
 
@@ -57,9 +58,9 @@ startTwoGame.addEventListener("click",  function(){
     }  
     else{
       playerTwoError.style.display="none";
-      //  playerOneScreen.style.display="none";
-      //  playerTwoScreen.style.display="block";
-      //  textTwo.innerHTML="Player - 2 Name";
+       playerTwoScreen.style.display="none";
+       playerScreen.style.display="block";
+       text.innerHTML="Game Over";
     }
 })
 // ==========
