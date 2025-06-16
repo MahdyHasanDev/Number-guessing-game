@@ -3,7 +3,9 @@ let startGame = document.querySelector(".startGame");
 let homeOneError = document.querySelector(".homeOneError");
 let gameScreen = document.querySelector(".gameScreen");
 let playerOneScreen = document.querySelector(".playerOneScreen");
+let playerTwoScreen = document.querySelector(".playerTwoScreen");
 let textOne = document.querySelector(".textOne");
+let textTwo = document.querySelector(".textTwo");
 
 
 // ========
@@ -11,6 +13,11 @@ let textOne = document.querySelector(".textOne");
 let playerOne = document.querySelector(".playerOne");
 let letsPlay = document.querySelector(".letsPlay");
 let playerOneError = document.querySelector(".playerOneError");
+// =======
+
+let playerTwo = document.querySelector(".playerTwo");
+let startTwoGame = document.querySelector(".startTwoGame");
+let playerTwoError = document.querySelector(".playerTwoError");
 // =======
 
 startGame.addEventListener("click",  function(){
@@ -30,23 +37,29 @@ startGame.addEventListener("click",  function(){
 
 })
 // ==========
-
 letsPlay.addEventListener("click",  function(){
 
     if (playerOne.value == ""){
        playerOneError.style.display="block";
-    }
-        
+    }  
     else{
-        console.log("playerOne.value");
-        
-       playerOneError.style.display="none";
-    //    gameScreen.style.display="none";
-    //    playerOneScreen.style.display="block";
-    //    textOne.innerHTML="Player One";
-
-
+      playerOneError.style.display="none";
+       playerOneScreen.style.display="none";
+       playerTwoScreen.style.display="block";
+       textTwo.innerHTML="Player - 2 Name";
     }
+})
+// ==========
+startTwoGame.addEventListener("click",  function(){
 
+    if (playerTwo.value == ""){
+       playerTwoError.style.display="block";
+    }  
+    else{
+      playerTwoError.style.display="none";
+      //  playerOneScreen.style.display="none";
+      //  playerTwoScreen.style.display="block";
+      //  textTwo.innerHTML="Player - 2 Name";
+    }
 })
 // ==========

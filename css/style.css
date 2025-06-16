@@ -28,12 +28,25 @@ padding: 200px 0;
      text-align: center;
      display: none;
 }
+.playerTwoScreen{
+    padding: 250px 285px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+     text-align: center;
+     display: none;
+}
 .gameContent h1{
    font-weight: 700;
     font-size: 48px;
     padding-bottom: 20px;
 }
 .playerOneScreen h1{
+   font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.playerTwoScreen h1{
    font-weight: 700;
     font-size: 48px;
     padding-bottom: 20px;
@@ -95,6 +108,40 @@ padding: 200px 0;
     margin-bottom: 25px;
 }
 .playerOneError{
+    padding: 15px 0px ;
+    background: red;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: none;
+    /* width:50%; */
+
+}
+/* ========= */
+
+.playerTwo{
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 79px;
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+}
+
+.playerTwo::placeholder{
+    font-size: 25px;
+    color: #d9d9d9;
+    font-weight: 700;
+}
+.startTwoGame{
+    padding: 20px 65px;
+    background: #7041d3;
+    border-radius: 45px;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+}
+.playerTwoError{
     padding: 15px 0px ;
     background: red;
     border-radius: 15px;
